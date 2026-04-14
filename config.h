@@ -37,6 +37,7 @@ static const Rule rules[] = {
 	{ "firefox",          NULL,       "Library",            0,            1,           -1 },
 	{ "Blueman-manager",  NULL,       "Bluetooth Devices",  0,            1,           -1 },
 	{ "Nemo",             "nemo",     NULL,                 0,            1,           -1 },
+    { "Thunar",           "thunar",   NULL,                 0,            1,           -1 },
 };
 
 /* layout(s) */
