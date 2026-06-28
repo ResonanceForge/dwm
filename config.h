@@ -33,7 +33,6 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class              instance    title                 tags mask     isfloating   monitor */
-	{ "Gimp",             NULL,       NULL,                 0,            1,           -1 },
 	{ "firefox",          NULL,       "Library",            0,            1,           -1 },
 	{ "Blueman-manager",  NULL,       "Bluetooth Devices",  0,            1,           -1 },
 };
