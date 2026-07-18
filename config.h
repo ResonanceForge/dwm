@@ -24,6 +24,18 @@ static const char *colors[][3]      = {
 	[SchemeSel]  = { col_gray4, col_green1,  col_green1  },
 };
 
+static const char *const autostart[] = {
+    "fcitx5", NULL,
+    "feh", "--bg-fill", "Pictures/starfield.png", NULL,
+    "sh", "-c", "~/.local/share/dwm/sysstatus.sh", NULL,
+    "xautolock", "-time", "15", "-locker", "slock", "-detectsleep", NULL,
+    "redshift", "-l", "39.99949502430241:116.32646283594929", NULL,
+    "picom", NULL,
+    "/usr/lib/xfce4/notifyd/xfce4-notifyd", NULL,
+    "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1", NULL,
+    NULL
+};
+
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
